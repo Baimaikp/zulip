@@ -21,7 +21,7 @@ from .settings import *
 
 # Used to clone DBs in backend tests.
 BACKEND_DATABASE_TEMPLATE = 'zulip_test_template'
-
+#interfacetodatabase
 DATABASES["default"] = {
     "NAME": "zulip_test",
     "USER": "zulip_test",
