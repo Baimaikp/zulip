@@ -37,7 +37,7 @@ DROP INDEX zerver_message_search_pgroonga;
 ALTER TABLE zerver_message DROP COLUMN search_pgroonga;
 
 SET search_path = %(SCHEMA)s,public;
-
+#interfaceDataBase
 ALTER ROLE %(USER)s SET search_path TO %(SCHEMA)s,public;
 """ % database_setting),
         ]
