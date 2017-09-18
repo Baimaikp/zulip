@@ -34,7 +34,7 @@ def check_our_files(filenames):
                 '''.format(e.msg, e.token.line, filename)
             print(msg)
             sys.exit(1)
-
+#CheckCSSfile
 if __name__ == '__main__':
     # If command arguments are provided, we only check those filenames.
     # Otherwise, we check all possible filenames.
