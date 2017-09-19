@@ -22,7 +22,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'zproject.test_settings'
 django.setup()
 from zerver.models import get_user, get_realm
 
-
+#TestAPIandinterfaceTodatabase
 with test_server_running():
     email = 'iago@zulip.com'  # Iago is an admin
     realm = get_realm("zulip")
